@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../static/CRITSECURRA.svg" type="image" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -12,16 +13,23 @@
     <title>About Cr!tSecurra</title>
   </head>
   <body
-    class="flex tracking-wider text-center justify-center items-center h-screen"
-    style="background-color: #eddcd9; color: #f2ebe9"
+    class="flex tracking-wider text-center justify-center overflow-x-hidden items-center h-screen"
+    style="background-color: black; color: #f2ebe9"
   >
+    <video
+      src="../static/CRITSECURRA.mp4"
+      class="absolute bottom-0 md:-bottom-5 xl:bottom-0 w-64 md:w-150 xl:-right-5"
+      autoplay
+      muted
+      loop
+    ></video>
     <div
-      class="bg-gray-200 rounded-2xl w-2/3 mx-20 hover:shadow-2xl transform duration-300"
-      style="background-color: #264143"
+      class="rounded-2xl sm:w-2/3 mx-20 hover:shadow-2xl transform duration-300"
+      style="background-color: transparent"
     >
-      <div class="m-10 sm:mx-20 lg:mx-40">
+      <div class="m-10 lg:mx-20">
         <h1 class="text-3xl md:text-4xl lg:text-5xl mt-10 font-bold">
-          CR!TSECURRA
+          CR<span class="text-blue-600">!</span>TSECURRA
         </h1>
         <h2 class="lg:text-lg">
           Secure File Storage Using <em>`Hybr!d Cryptography` </em>
@@ -29,7 +37,7 @@
         <br /><br />
         <!-- <h2 class="mt-12 text-center font-semibold text-3xl">`SUCCESSO`!</h2> -->
         <div
-          class="h-64 overflow-y-scroll bg-black bg-opacity-25 text-left px-20 mb-5 w-4/5 mx-auto"
+          class="h-64 overflow-y-scroll border border-white border-opacity-25 text-left px-3 sm:px-4 md:px-10 xl:px-20 mb-5 w-4/5 mx-auto"
         >
           <p class="mt-12 mb-5 mx-auto">
             <strong>Objective:</strong> To achieve a platform users can believe
@@ -58,7 +66,7 @@
           </ol>
           <p>To restore:</p>
           <br />
-          <ol class="mb-5 list-decimal">
+          <ol class="mb-10 list-decimal">
             <li>
               Load the key (.pem file) on the server. Ask it from your sender.
             </li>
